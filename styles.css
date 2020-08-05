@@ -1,0 +1,14 @@
+:root {
+  background-color: hsl(257, 40%, 49%);
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/bg-desktop.svg");
+  background-color: var(background-color);
+  height: 100vh;
+  --webkit-font-smoothing: antialiased;
+}
