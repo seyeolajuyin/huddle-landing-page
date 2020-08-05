@@ -12,14 +12,18 @@
 
 body {
   background-image: url("./images/bg-desktop.svg");
-  background-repeat: no-repeat;
   background-color: var(--background-color);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
   --webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
-  height: 100vh;
 }
 
 .container {
+  min-height: 100vh;
+
+  background-repeat: no-repeat;
   display: flex;
   width: 100%;
   margin: 50px 60px;
@@ -48,6 +52,7 @@ body {
   width: 438px;
   font-family: "Poppins";
   font-weight: 700;
+  letter-spacing: 1px;
   transform: translateX(-15%);
   animation: comein 1s ease forwards;
 }
