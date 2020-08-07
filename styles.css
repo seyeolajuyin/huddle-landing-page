@@ -98,8 +98,8 @@ button:hover {
 /* social media icons */
 .icons {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 50px;
   cursor: pointer;
 }
 
@@ -124,6 +124,7 @@ button:hover {
 @media screen and (max-width: 375px) {
   body {
     width: 675px;
+    border: 1px solid red;
   }
   .container {
     background-image: url(./images/bg-mobile.svg);
@@ -138,15 +139,15 @@ button:hover {
     margin-top: 50px;
   }
   .container-1 {
-    margin: 0px 50px 0px 50px;
+    margin: 50px 50px 0px 50px;
   }
   .showcase img {
+    margin-top: 50px;
     width: 100%;
   }
   .container-2 {
     width: 90%;
-
-    margin: 50px auto;
+    margin: 150px auto;
     text-align: center;
   }
 
@@ -172,13 +173,16 @@ button:hover {
     font-size: 25px;
   }
   .icons {
-    margin-top: 50px;
+    margin-top: 150px;
+
     position: absolute;
-    left: 0;
+    bottom: -100px;
+    left: 5px;
     font-size: 25px;
   }
   footer {
+    border: 1px solid red;
     width: 90%;
-    margin: auto;
+    margin: 0px auto;
   }
 }
