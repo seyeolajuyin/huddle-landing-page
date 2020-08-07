@@ -124,7 +124,6 @@ button:hover {
 @media screen and (max-width: 375px) {
   body {
     width: 675px;
-    border: 1px solid red;
   }
   .container {
     background-image: url(./images/bg-mobile.svg);
