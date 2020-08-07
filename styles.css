@@ -7,26 +7,30 @@
 
 * {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-image: url("./images/bg-desktop.svg");
-  background-color: var(--background-color);
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
   --webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
 }
 
 .container {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("./images/bg-desktop.svg");
+  background-color: var(--background-color);
   min-height: 100vh;
-
   background-repeat: no-repeat;
   display: flex;
   width: 100%;
-  margin: 50px 60px;
+}
+
+.container-1 {
+  margin-top: 50px;
+  margin-left: 160px;
 }
 .logo img {
   width: 220px;
@@ -64,11 +68,13 @@ body {
 }
 
 .copy p {
+  margin-top: 20px;
   width: 512px;
 }
 
 /* button */
 button {
+  margin-top: 20px;
   height: 45px;
   background-color: #ffffff;
   border-radius: 50px;
@@ -109,7 +115,7 @@ button:hover {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 100%, 99%);
+  color: hsl(295, 92%, 49%);
   text-decoration: none;
 }
 
@@ -117,11 +123,13 @@ button:hover {
 
 @media screen and (max-width: 375px) {
   body {
-    margin: 0px;
-    background-image: url(./images/bg-mobile.svg);
-    background-size: cover;
+    width: 675px;
   }
   .container {
+    background-image: url(./images/bg-mobile.svg);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
     width: 675px;
     display: flex;
     flex-direction: column;
@@ -130,45 +138,49 @@ button:hover {
     margin-top: 50px;
   }
   .container-1 {
-    width: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 0px 50px 0px 50px;
   }
   .showcase img {
-    margin-top: 100px;
-    width: 550px;
+    width: 100%;
   }
   .container-2 {
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
-    position: relative;
+    width: 90%;
+
+    margin: 50px auto;
     text-align: center;
+  }
+  .copy {
   }
 
   .copy h1 {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: 700;
+    width: 100%;
+    font-size: 3em;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-weight: 400;
   }
   .copy p {
     font-weight: 400;
-    font-size: 25px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 30px;
     letter-spacing: 1px;
   }
 
   button {
+    margin-top: 30px;
     width: 70%;
     height: 70px;
     font-size: 25px;
   }
   .icons {
+    margin-top: 50px;
     position: absolute;
     left: 0;
     font-size: 25px;
   }
-  .attribution {
-    width: 100%;
-    margin: 0 60px;
+  footer {
+    width: 90%;
+    margin: auto;
   }
 }
