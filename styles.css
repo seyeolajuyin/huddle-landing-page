@@ -12,6 +12,14 @@
 }
 
 body {
+<<<<<<< HEAD
+=======
+  background-image: url("./images/bg-desktop.svg");
+  background-color: var(--background-color);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+>>>>>>> fd95857f6fa54086ff6d3e7976840dd54a2b4777
   --webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
 }
@@ -25,12 +33,16 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   display: flex;
+<<<<<<< HEAD
   width: 100%;
 }
 
 .container-1 {
   margin-top: 50px;
   margin-left: 160px;
+=======
+  margin: 50px 60px;
+>>>>>>> fd95857f6fa54086ff6d3e7976840dd54a2b4777
 }
 .logo img {
   width: 220px;
