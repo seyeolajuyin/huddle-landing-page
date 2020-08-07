@@ -122,62 +122,55 @@ button:hover {
 /* media queries */
 
 @media screen and (max-width: 375px) {
-  body {
-    width: 675px;
-  }
   .container {
     background-image: url(./images/bg-mobile.svg);
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    width: 675px;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: block;
   }
   .logo img {
+    width: 50%;
     margin-top: 50px;
   }
   .container-1 {
-    margin: 50px 50px 0px 50px;
+    margin: 0px 20px;
   }
   .showcase img {
-    margin-top: 50px;
     width: 100%;
   }
   .container-2 {
     width: 90%;
-    margin: 150px auto;
+    margin: 0px 20px;
     text-align: center;
   }
-
   .copy h1 {
     width: 100%;
-    font-size: 3em;
-    letter-spacing: 1px;
+    margin-top: 50px;
+    padding: 0px 5px;
+    font-size: 25px;
+
     line-height: 1em;
     font-weight: 400;
   }
   .copy p {
     font-weight: 400;
     width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 19px;
+    line-height: 1.8em;
   }
 
   button {
-    margin-top: 30px;
-    width: 70%;
-    height: 70px;
-    font-size: 25px;
+    width: 60%;
+    margin-top: 50px;
+    height: 40px;
+    font-size: 15px;
   }
   .icons {
-    margin-top: 150px;
-
     position: absolute;
-    bottom: -100px;
-    left: 5px;
-    font-size: 25px;
+    left: 35px;
+    font-size: 15px;
   }
   footer {
     width: 90%;
