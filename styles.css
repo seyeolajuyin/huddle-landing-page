@@ -30,7 +30,7 @@ body {
 
 .container-1 {
   margin-top: 50px;
-  margin-left: 160px;
+  margin-left: 100px;
 }
 .logo img {
   width: 220px;
@@ -38,7 +38,7 @@ body {
 
 .showcase img {
   margin-top: 50px;
-  width: 700px;
+  width: 650px;
 }
 
 /* right grid */
@@ -48,7 +48,7 @@ body {
   width: 526px;
   height: 500px;
   margin-top: 200px;
-  margin-left: 100px;
+  margin-left: 70px;
   position: relative;
 }
 
